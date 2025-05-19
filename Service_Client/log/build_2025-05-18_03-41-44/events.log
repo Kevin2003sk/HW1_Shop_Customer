@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000824] (shop_customer) JobQueued: {'identifier': 'shop_customer', 'dependencies': OrderedDict()}
+[0.002687] (shop_customer) JobStarted: {'identifier': 'shop_customer'}
+[0.039823] (shop_customer) JobProgress: {'identifier': 'shop_customer', 'progress': 'cmake'}
+[0.043682] (shop_customer) JobProgress: {'identifier': 'shop_customer', 'progress': 'build'}
+[0.043891] (shop_customer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevin/ROS2_Homework/build/shop_customer', '--', '-j4', '-l4'], 'cwd': '/home/kevin/ROS2_Homework/build/shop_customer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevin'), ('SSH_AGENT_PID', '1941'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1761'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c2766bd0eef37a6d1f9e157768296eda'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:57306'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1976,unix/ubuntu:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '0ed493e453a644b5898e01cca98374b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13837b34_24f3_4f79_9ead_fea386d587da'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/ROS2_Homework/build/shop_customer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c2766bd0eef37a6d1f9e157768296eda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099492] (-) TimerEvent: {}
+[0.201002] (-) TimerEvent: {}
+[0.215331] (shop_customer) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.270537] (shop_customer) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.301848] (-) TimerEvent: {}
+[0.402943] (-) TimerEvent: {}
+[0.441934] (shop_customer) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.503607] (-) TimerEvent: {}
+[0.595662] (shop_customer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.604234] (-) TimerEvent: {}
+[0.613600] (shop_customer) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.704893] (-) TimerEvent: {}
+[0.805615] (-) TimerEvent: {}
+[0.906537] (-) TimerEvent: {}
+[0.956802] (shop_customer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.007126] (-) TimerEvent: {}
+[1.107899] (-) TimerEvent: {}
+[1.170614] (shop_customer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.181884] (shop_customer) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.208461] (-) TimerEvent: {}
+[1.248995] (shop_customer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.309042] (-) TimerEvent: {}
+[1.411041] (-) TimerEvent: {}
+[1.512697] (-) TimerEvent: {}
+[1.613451] (-) TimerEvent: {}
+[1.647702] (shop_customer) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.714084] (-) TimerEvent: {}
+[1.748832] (shop_customer) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.814611] (-) TimerEvent: {}
+[1.915303] (-) TimerEvent: {}
+[2.016529] (-) TimerEvent: {}
+[2.117572] (-) TimerEvent: {}
+[2.218462] (-) TimerEvent: {}
+[2.320355] (-) TimerEvent: {}
+[2.421531] (-) TimerEvent: {}
+[2.503305] (shop_customer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.503709] (shop_customer) StdoutLine: {'line': b'See also "/home/kevin/ROS2_Homework/build/shop_customer/CMakeFiles/CMakeOutput.log".\n'}
+[2.504619] (shop_customer) StdoutLine: {'line': b'See also "/home/kevin/ROS2_Homework/build/shop_customer/CMakeFiles/CMakeError.log".\n'}
+[2.506805] (shop_customer) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.507168] (shop_customer) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.507307] (shop_customer) StderrLine: {'line': b'  shop_customer --arguments-file\n'}
+[2.507423] (shop_customer) StderrLine: {'line': b'  /home/kevin/ROS2_Homework/build/shop_customer/rosidl_adapter__arguments__shop_customer.json\n'}
+[2.507538] (shop_customer) StderrLine: {'line': b'  --output-dir\n'}
+[2.507667] (shop_customer) StderrLine: {'line': b'  /home/kevin/ROS2_Homework/build/shop_customer/rosidl_adapter/shop_customer\n'}
+[2.507837] (shop_customer) StderrLine: {'line': b'  --output-file\n'}
+[2.507979] (shop_customer) StderrLine: {'line': b'  /home/kevin/ROS2_Homework/build/shop_customer/rosidl_adapter/shop_customer.idls)\n'}
+[2.508118] (shop_customer) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.508248] (shop_customer) StderrLine: {'line': b'\n'}
+[2.508381] (shop_customer) StderrLine: {'line': b"  Error processing 'int remaining' of 'shop_customer/Order_Response': ''int'\n"}
+[2.508490] (shop_customer) StderrLine: {'line': b'  is an invalid message name.  It should have the pattern\n'}
+[2.508596] (shop_customer) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[2.508751] (shop_customer) StderrLine: {'line': b'\n'}
+[2.508906] (shop_customer) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.509038] (shop_customer) StderrLine: {'line': b'\n'}
+[2.509191] (shop_customer) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.509323] (shop_customer) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.509469] (shop_customer) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.509614] (shop_customer) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.509767] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.509925] (shop_customer) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.510475] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.510613] (shop_customer) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.510737] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[2.510859] (shop_customer) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[2.510975] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[2.511098] (shop_customer) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[2.511224] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 856, in parse_service_string\n'}
+[2.511348] (shop_customer) StderrLine: {'line': b'      response_message = parse_message_string(\n'}
+[2.511467] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[2.511635] (shop_customer) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[2.511847] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[2.511990] (shop_customer) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[2.512103] (shop_customer) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[2.512223] (shop_customer) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[2.512336] (shop_customer) StderrLine: {'line': b'\n'}
+[2.512631] (shop_customer) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message\n"}
+[2.512781] (shop_customer) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[2.512899] (shop_customer) StderrLine: {'line': b'\n'}
+[2.513012] (shop_customer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.513160] (shop_customer) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.513282] (shop_customer) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[2.513400] (shop_customer) StderrLine: {'line': b'\n'}
+[2.513519] (shop_customer) StderrLine: {'line': b'\n'}
+[2.519474] (shop_customer) StderrLine: {'line': b'make: *** [Makefile:310: cmake_check_build_system] Error 1\n'}
+[2.524161] (-) TimerEvent: {}
+[2.525640] (shop_customer) CommandEnded: {'returncode': 2}
+[2.550512] (shop_customer) JobEnded: {'identifier': 'shop_customer', 'rc': 2}
+[2.565072] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/kevin/ROS2_Homework/build/shop_customer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kevin/ROS2_Homework/build/shop_customer -- -j4 -l4
+Invoked command in '/home/kevin/ROS2_Homework/build/shop_customer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kevin/ROS2_Homework/build/shop_customer -- -j4 -l4

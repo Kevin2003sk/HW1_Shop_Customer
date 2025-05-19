@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000786] (shop_customer) JobQueued: {'identifier': 'shop_customer', 'dependencies': OrderedDict()}
+[0.001974] (shop_customer) JobStarted: {'identifier': 'shop_customer'}
+[0.025476] (shop_customer) JobProgress: {'identifier': 'shop_customer', 'progress': 'cmake'}
+[0.027582] (shop_customer) JobProgress: {'identifier': 'shop_customer', 'progress': 'build'}
+[0.031318] (shop_customer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kevin/ROS2_Homework/build/shop_customer', '--', '-j4', '-l4'], 'cwd': '/home/kevin/ROS2_Homework/build/shop_customer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevin'), ('SSH_AGENT_PID', '1941'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1761'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c2766bd0eef37a6d1f9e157768296eda'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:57306'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1976,unix/ubuntu:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '0ed493e453a644b5898e01cca98374b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/987f22c5_cfab_481d_997f_bab9e7c9be89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/ROS2_Homework/build/shop_customer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c2766bd0eef37a6d1f9e157768296eda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.098994] (-) TimerEvent: {}
+[0.159818] (shop_customer) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target shop\x1b[0m\n'}
+[0.160524] (shop_customer) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customer\x1b[0m\n'}
+[0.199929] (-) TimerEvent: {}
+[0.223885] (shop_customer) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/customer.dir/src/node/customer.cpp.o\x1b[0m\n'}
+[0.229501] (shop_customer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/shop.dir/src/node/shop.cpp.o\x1b[0m\n'}
+[0.300588] (-) TimerEvent: {}
+[0.401912] (-) TimerEvent: {}
+[0.505453] (-) TimerEvent: {}
+[0.606510] (-) TimerEvent: {}
+[0.707311] (-) TimerEvent: {}
+[0.808325] (-) TimerEvent: {}
+[0.909432] (-) TimerEvent: {}
+[1.010459] (-) TimerEvent: {}
+[1.111470] (-) TimerEvent: {}
+[1.212428] (-) TimerEvent: {}
+[1.312876] (-) TimerEvent: {}
+[1.413757] (-) TimerEvent: {}
+[1.514979] (-) TimerEvent: {}
+[1.616272] (-) TimerEvent: {}
+[1.717040] (-) TimerEvent: {}
+[1.817937] (-) TimerEvent: {}
+[1.919041] (-) TimerEvent: {}
+[2.019864] (-) TimerEvent: {}
+[2.121038] (-) TimerEvent: {}
+[2.221963] (-) TimerEvent: {}
+[2.323110] (-) TimerEvent: {}
+[2.424593] (-) TimerEvent: {}
+[2.525983] (-) TimerEvent: {}
+[2.627109] (-) TimerEvent: {}
+[2.728347] (-) TimerEvent: {}
+[2.829241] (-) TimerEvent: {}
+[2.930347] (-) TimerEvent: {}
+[3.031618] (-) TimerEvent: {}
+[3.132587] (-) TimerEvent: {}
+[3.234143] (-) TimerEvent: {}
+[3.335334] (-) TimerEvent: {}
+[3.436775] (-) TimerEvent: {}
+[3.537892] (-) TimerEvent: {}
+[3.639618] (-) TimerEvent: {}
+[3.741001] (-) TimerEvent: {}
+[3.842112] (-) TimerEvent: {}
+[3.943354] (-) TimerEvent: {}
+[4.044652] (-) TimerEvent: {}
+[4.145790] (-) TimerEvent: {}
+[4.246561] (-) TimerEvent: {}
+[4.347414] (-) TimerEvent: {}
+[4.448834] (-) TimerEvent: {}
+[4.550451] (-) TimerEvent: {}
+[4.651529] (-) TimerEvent: {}
+[4.752739] (-) TimerEvent: {}
+[4.854065] (-) TimerEvent: {}
+[4.955041] (-) TimerEvent: {}
+[5.056273] (-) TimerEvent: {}
+[5.157502] (-) TimerEvent: {}
+[5.258686] (-) TimerEvent: {}
+[5.359954] (-) TimerEvent: {}
+[5.461331] (-) TimerEvent: {}
+[5.562526] (-) TimerEvent: {}
+[5.663611] (-) TimerEvent: {}
+[5.764937] (-) TimerEvent: {}
+[5.866109] (-) TimerEvent: {}
+[5.967081] (-) TimerEvent: {}
+[6.068206] (-) TimerEvent: {}
+[6.169156] (-) TimerEvent: {}
+[6.270293] (-) TimerEvent: {}
+[6.371162] (-) TimerEvent: {}
+[6.472505] (-) TimerEvent: {}
+[6.581827] (-) TimerEvent: {}
+[6.682818] (-) TimerEvent: {}
+[6.783840] (-) TimerEvent: {}
+[6.884807] (-) TimerEvent: {}
+[6.986145] (-) TimerEvent: {}
+[7.087314] (-) TimerEvent: {}
+[7.188781] (-) TimerEvent: {}
+[7.289997] (-) TimerEvent: {}
+[7.390772] (-) TimerEvent: {}
+[7.491670] (-) TimerEvent: {}
+[7.592838] (-) TimerEvent: {}
+[7.693985] (-) TimerEvent: {}
+[7.794918] (-) TimerEvent: {}
+[7.896554] (-) TimerEvent: {}
+[7.997393] (-) TimerEvent: {}
+[8.098168] (-) TimerEvent: {}
+[8.199587] (-) TimerEvent: {}
+[8.300609] (-) TimerEvent: {}
+[8.401240] (-) TimerEvent: {}
+[8.501973] (-) TimerEvent: {}
+[8.602863] (-) TimerEvent: {}
+[8.703527] (-) TimerEvent: {}
+[8.804305] (-) TimerEvent: {}
+[8.904982] (-) TimerEvent: {}
+[9.005845] (-) TimerEvent: {}
+[9.106906] (-) TimerEvent: {}
+[9.207947] (-) TimerEvent: {}
+[9.308994] (-) TimerEvent: {}
+[9.410107] (-) TimerEvent: {}
+[9.510821] (-) TimerEvent: {}
+[9.611765] (-) TimerEvent: {}
+[9.712630] (-) TimerEvent: {}
+[9.813707] (-) TimerEvent: {}
+[9.914625] (-) TimerEvent: {}
+[10.015879] (-) TimerEvent: {}
+[10.116640] (-) TimerEvent: {}
+[10.218268] (-) TimerEvent: {}
+[10.319111] (-) TimerEvent: {}
+[10.419977] (-) TimerEvent: {}
+[10.521063] (-) TimerEvent: {}
+[10.622207] (-) TimerEvent: {}
+[10.722918] (-) TimerEvent: {}
+[10.823766] (-) TimerEvent: {}
+[10.924794] (-) TimerEvent: {}
+[11.025454] (-) TimerEvent: {}
+[11.126832] (-) TimerEvent: {}
+[11.228334] (-) TimerEvent: {}
+[11.328980] (-) TimerEvent: {}
+[11.430070] (-) TimerEvent: {}
+[11.530988] (-) TimerEvent: {}
+[11.631993] (-) TimerEvent: {}
+[11.735439] (-) TimerEvent: {}
+[11.836202] (-) TimerEvent: {}
+[11.937001] (-) TimerEvent: {}
+[12.037921] (-) TimerEvent: {}
+[12.138895] (-) TimerEvent: {}
+[12.239525] (-) TimerEvent: {}
+[12.340803] (-) TimerEvent: {}
+[12.441455] (-) TimerEvent: {}
+[12.542254] (-) TimerEvent: {}
+[12.642986] (-) TimerEvent: {}
+[12.743911] (-) TimerEvent: {}
+[12.845530] (-) TimerEvent: {}
+[12.946738] (-) TimerEvent: {}
+[13.047803] (-) TimerEvent: {}
+[13.148693] (-) TimerEvent: {}
+[13.252522] (-) TimerEvent: {}
+[13.353088] (-) TimerEvent: {}
+[13.454139] (-) TimerEvent: {}
+[13.555255] (-) TimerEvent: {}
+[13.656126] (-) TimerEvent: {}
+[13.757079] (-) TimerEvent: {}
+[13.857949] (-) TimerEvent: {}
+[13.958927] (-) TimerEvent: {}
+[14.060004] (-) TimerEvent: {}
+[14.160569] (-) TimerEvent: {}
+[14.278688] (-) TimerEvent: {}
+[14.379610] (-) TimerEvent: {}
+[14.480487] (-) TimerEvent: {}
+[14.581150] (-) TimerEvent: {}
+[14.682323] (-) TimerEvent: {}
+[14.783730] (-) TimerEvent: {}
+[14.885035] (-) TimerEvent: {}
+[14.986144] (-) TimerEvent: {}
+[15.086971] (-) TimerEvent: {}
+[15.191078] (-) TimerEvent: {}
+[15.277128] (shop_customer) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable shop\x1b[0m\n'}
+[15.291486] (-) TimerEvent: {}
+[15.358983] (shop_customer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable customer\x1b[0m\n'}
+[15.392111] (-) TimerEvent: {}
+[15.493680] (-) TimerEvent: {}
+[15.595018] (-) TimerEvent: {}
+[15.696899] (-) TimerEvent: {}
+[15.798120] (-) TimerEvent: {}
+[15.899456] (-) TimerEvent: {}
+[16.000414] (-) TimerEvent: {}
+[16.005942] (shop_customer) StdoutLine: {'line': b'[100%] Built target shop\n'}
+[16.017457] (shop_customer) StdoutLine: {'line': b'[100%] Built target customer\n'}
+[16.033723] (shop_customer) CommandEnded: {'returncode': 0}
+[16.037983] (shop_customer) JobProgress: {'identifier': 'shop_customer', 'progress': 'install'}
+[16.053994] (shop_customer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kevin/ROS2_Homework/build/shop_customer'], 'cwd': '/home/kevin/ROS2_Homework/build/shop_customer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevin'), ('SSH_AGENT_PID', '1941'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kevin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1761'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c2766bd0eef37a6d1f9e157768296eda'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kevin'), ('JOURNAL_STREAM', '8:57306'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kevin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/kevin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1976,unix/ubuntu:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '0ed493e453a644b5898e01cca98374b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/987f22c5_cfab_481d_997f_bab9e7c9be89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kevin/ROS2_Homework/build/shop_customer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c2766bd0eef37a6d1f9e157768296eda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[16.067207] (shop_customer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.068439] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/launch\n'}
+[16.068677] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/launch/shop_customer_launch.py\n'}
+[16.069844] (shop_customer) StdoutLine: {'line': b'-- Installing: /home/kevin/ROS2_Homework/install/shop_customer/lib/shop_customer/shop\n'}
+[16.075269] (shop_customer) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/ROS2_Homework/install/shop_customer/lib/shop_customer/shop" to ""\n'}
+[16.077424] (shop_customer) StdoutLine: {'line': b'-- Installing: /home/kevin/ROS2_Homework/install/shop_customer/lib/shop_customer/customer\n'}
+[16.082124] (shop_customer) StdoutLine: {'line': b'-- Set runtime path of "/home/kevin/ROS2_Homework/install/shop_customer/lib/shop_customer/customer" to ""\n'}
+[16.082378] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/ament_index/resource_index/package_run_dependencies/shop_customer\n'}
+[16.082453] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/ament_index/resource_index/parent_prefix_path/shop_customer\n'}
+[16.084015] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/environment/ament_prefix_path.sh\n'}
+[16.084658] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/environment/ament_prefix_path.dsv\n'}
+[16.084886] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/environment/path.sh\n'}
+[16.085007] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/environment/path.dsv\n'}
+[16.085097] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/local_setup.bash\n'}
+[16.085181] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/local_setup.sh\n'}
+[16.085335] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/local_setup.zsh\n'}
+[16.085429] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/local_setup.dsv\n'}
+[16.085515] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/package.dsv\n'}
+[16.085598] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/ament_index/resource_index/packages/shop_customer\n'}
+[16.085682] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/cmake/shop_customerConfig.cmake\n'}
+[16.085772] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/cmake/shop_customerConfig-version.cmake\n'}
+[16.086145] (shop_customer) StdoutLine: {'line': b'-- Up-to-date: /home/kevin/ROS2_Homework/install/shop_customer/share/shop_customer/package.xml\n'}
+[16.089436] (shop_customer) CommandEnded: {'returncode': 0}
+[16.100848] (-) TimerEvent: {}
+[16.141261] (shop_customer) JobEnded: {'identifier': 'shop_customer', 'rc': 0}
+[16.142007] (-) EventReactorShutdown: {}

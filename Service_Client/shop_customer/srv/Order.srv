@@ -1,0 +1,7 @@
+# 请求部分
+string item_name  # 顾客想要购买的商品名称
+---
+# 响应部分
+string response   # 商店的响应消息
+bool success      # 是否成功购买
+int remaining     # 剩余库存数量 

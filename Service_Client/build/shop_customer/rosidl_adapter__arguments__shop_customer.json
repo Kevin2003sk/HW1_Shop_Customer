@@ -1,0 +1,6 @@
+{
+  "package_name": "shop_customer",
+  "non_idl_tuples": [
+    "/home/kevin/ROS2_Homework/shop_customer:srv/Order.srv"
+  ]
+}

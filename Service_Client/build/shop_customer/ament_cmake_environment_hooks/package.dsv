@@ -1,0 +1,4 @@
+source;share/shop_customer/local_setup.bash
+source;share/shop_customer/local_setup.dsv
+source;share/shop_customer/local_setup.sh
+source;share/shop_customer/local_setup.zsh

@@ -1,0 +1,6 @@
+Invoking command in '/home/kevin/ROS2_Homework/build/shop_customer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/kevin/ROS2_Homework/shop_customer -DCMAKE_INSTALL_PREFIX=/home/kevin/ROS2_Homework/install/shop_customer
+Invoked command in '/home/kevin/ROS2_Homework/build/shop_customer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/kevin/ROS2_Homework/shop_customer -DCMAKE_INSTALL_PREFIX=/home/kevin/ROS2_Homework/install/shop_customer
+Invoking command in '/home/kevin/ROS2_Homework/build/shop_customer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kevin/ROS2_Homework/build/shop_customer -- -j4 -l4
+Invoked command in '/home/kevin/ROS2_Homework/build/shop_customer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kevin/ROS2_Homework/build/shop_customer -- -j4 -l4
+Invoking command in '/home/kevin/ROS2_Homework/build/shop_customer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kevin/ROS2_Homework/build/shop_customer
+Invoked command in '/home/kevin/ROS2_Homework/build/shop_customer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kevin/ROS2_Homework/build/shop_customer
