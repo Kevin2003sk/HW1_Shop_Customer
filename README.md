@@ -37,3 +37,4 @@ HW1_Shop_Customer/
 - 商店收到请求后查看库存，如果库存充足则发送成交请求。
   
 ## 实现效果
+![438ac3cb0055f256471c0cb6050d53a1](https://github.com/user-attachments/assets/74bcaf80-ed52-4944-9948-85a969dd97ec)
